@@ -1,6 +1,5 @@
 # emscripten-hello-world
-A hello world on how you can easily create WebAssembly with glue code for a node project with [emscripten]
-(git clone https://github.com/emscripten-core/emsdk.git).
+A hello world on how you can easily create WebAssembly with glue code for a node project with [emscripten](https://github.com/emscripten-core/emsdk).
 
 
 ## Prerequisties
@@ -12,7 +11,7 @@ This repo contains the emscripten core as a git submodule.
 
 ### Clone this repo recusrively
 
-Please clone this repo recursively, so you have to `emsdk` (emscripten) available, therefore type:
+Please clone this repo recursively, so you have the `emsdk` (emscripten) available, therefore type:
 
 
 ```
@@ -21,7 +20,7 @@ git clone https://github.com/yguenduez/emscripten-hello-world.git --recurse
 
 ### Update and Activate
 
-Enter the directory install as well as activate the latest stable version of `emsdk`
+Enter the directory and install as well as activate the latest stable version of `emsdk`
 
 ```sh
 cd emsdk
