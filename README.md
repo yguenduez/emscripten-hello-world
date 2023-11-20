@@ -40,8 +40,12 @@ source ./emsdk_env.sh
 
 # hello world c
 ## build
-### Create makefiles for wasm
+```sh
+cd hello-world-c
 ```
+
+### Create makefiles for wasm
+```sh
 mkdir build
 cd build  
 emcmake cmake ..  
