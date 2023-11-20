@@ -6,8 +6,7 @@ function add() {
     console.log('c add: 5 + 5 is : ' + fis._c_add(5, 5));
 }
 
-var result = fis.onRuntimeInitialized = () => {
-
+fis.onRuntimeInitialized = () => { // explicitly waiting for the runtime to be initialized
     add()
 }
 
